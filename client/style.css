@@ -9,7 +9,23 @@ button{
     background-color: rgba(128, 128, 128, 0.69);
     width: 100%;
     left:0;
+    height: 5vh;
 
+    text-align:center;
 }
+
+#bottomBar label{
+    display: inline-block;
+    margin-top: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    #bottomBar{
+        font-size: small;
+    }
+}
+
+
+
 
 

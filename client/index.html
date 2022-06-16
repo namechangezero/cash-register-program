@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menuBarLeft.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addProduct.css">
+</head>
+<body>
+    
+    <i class="fa-solid fa-bars fa-2x" id="menuIcon" onclick="openMenu()"></i>
+    
+    <div id="leftBar">
+        <p class="menuText" id="fo" onclick="showSold()">Verkauftes anzeigen</p>
+        <p class="menuText" onclick="addProduct()">Produkt hinzufügen</p>
+    </div>
+
+
+    <div id="bottomBar">
+        <label for="">made by Alessandro | </label>
+        <label for="">Discord: Namensänderung#6461</label>
+    </div>
+
+    <h1 style="text-align:center; text-decoration: overline underline;">Kassen System</h1>
+
+
+    <div id="addProduct">
+        <i id="closeAddProduct" class="fa-xmark fa-2x fa-solid" onclick="closeAddProduct()"></i>
+        <label>Produkt name: </label><input type="text" id="prodName"> <br>
+        <label>Preis: </label><input type="text" id="prodPrice"> <br>
+        <button>Hinzufügen</button>
+    </div>
+
+    
+    <script src="menuBarLeft.js"></script>
+    <script src="addProduct.js"></script>
+</body>
+</html>

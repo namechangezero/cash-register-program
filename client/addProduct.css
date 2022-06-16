@@ -1,0 +1,29 @@
+
+#addProduct{
+    background-color: rgba(95, 158, 160, 0.76);
+    width: 80%;
+    margin: auto;
+    border-radius: 9px;
+}
+
+#addProduct label{
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+#addProduct button{
+    border-radius: 5px;
+    border:none;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#closeAddProduct{
+    position: absolute;
+    z-index: 8;
+    right:0;
+    color:red;
+}

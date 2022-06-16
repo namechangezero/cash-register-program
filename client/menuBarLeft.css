@@ -1,0 +1,68 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes AmLeftBar{
+    from {width: 1px;}
+    to {width: 5cm;}
+}
+
+@keyframes AmLeftBarText{
+    from {opacity:0; font-size: 0px;}
+    to {opacity: 1; font-size: large;}
+}
+
+@keyframes LeftBarClose{
+
+    to{
+        width: 0px;
+    }
+
+
+}
+
+@keyframes LeftBarCloseText{
+    to{
+        font-size: 0px;
+    }
+}
+
+#leftBar{
+    position: absolute;
+    z-index: 5;
+    top:0;
+    left:0;
+    background-color: rgba(211, 211, 211, 0.759);
+    width: 5cm;
+    height: 100vh;
+    display: none;
+
+    animation-name: AmLeftBar;
+    animation-duration: 0.3s;
+}
+
+#fo{
+    margin-top: 1.5cm;
+}
+
+.menuText{
+    font-size: large;
+    margin-left: 5px;
+
+    cursor: pointer;
+
+    animation-name: AmLeftBarText;
+    animation-duration: 0.3s;
+}
+
+#menuIcon{
+    cursor: pointer;
+    position: absolute;
+    z-index: 6;
+    top:0;
+    left:0;
+}
+
+
+

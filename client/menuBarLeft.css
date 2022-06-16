@@ -30,7 +30,7 @@
 
 #leftBar{
     position: absolute;
-    z-index: 5;
+    z-index: 100;
     top:0;
     left:0;
     background-color: rgba(211, 211, 211, 0.759);
@@ -59,7 +59,7 @@
 #menuIcon{
     cursor: pointer;
     position: absolute;
-    z-index: 6;
+    z-index: 101;
     top:0;
     left:0;
 }

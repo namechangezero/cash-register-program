@@ -4,7 +4,6 @@ var menu = document.getElementById("leftBar")
 menu.style.display = "none";
 
 var menuIcon = document.getElementById("menuIcon");
-var menuIconClassListStart = menuIcon.classList;
 
 
 function openMenu(){
@@ -38,5 +37,10 @@ menu.onanimationend=()=>{
     if (menu.style.animationName==="LeftBarClose"){
         menu.style.display="none";
     }
+}
+
+
+function openOrCloseMenu(){
+    openMenu()
 }
 

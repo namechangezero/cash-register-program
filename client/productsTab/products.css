@@ -1,0 +1,53 @@
+
+
+#products tr,th,table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    height: 30px;
+}
+
+.prodsClass{
+    cursor: pointer;
+}
+
+#products{
+    width: 100%;
+}
+
+#productsDiv{
+    overflow-y: scroll;
+    height: 87.7vh;
+    width: 50%;
+    float:left;
+}
+
+#current{
+    width: 50%;
+    float:right;
+    overflow-y: auto;
+    height: 70vh;
+}
+
+#currentTable{
+    width: 100%;
+}
+
+#sum{
+
+    position: absolute;
+    bottom: 13vh;
+
+}
+
+#send{
+    position: absolute;
+    bottom: 5.5vh;
+    padding: 20px;
+    font-size: large;
+
+    font-weight: bold;
+    color:rgb(78, 255, 78);
+    text-decoration: underline dotted;
+
+}

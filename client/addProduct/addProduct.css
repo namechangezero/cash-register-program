@@ -2,7 +2,7 @@
 #addProduct{
     position: absolute;
     z-index: 9;
-    background-color: rgba(95, 158, 160, 0.76);
+    background-color: rgb(95, 158, 160);
     width: 80%;
     margin: auto;
     border-radius: 9px;

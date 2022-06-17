@@ -33,13 +33,16 @@
     z-index: 100;
     top:0;
     left:0;
-    background-color: rgba(211, 211, 211, 0.759);
+    background-color: rgba(211, 211, 211, 0.753);
     width: 5cm;
     height: 100vh;
     display: none;
 
     animation-name: AmLeftBar;
     animation-duration: 0.3s;
+
+    backdrop-filter: blur(1px);
+
 }
 
 #fo{
@@ -60,8 +63,9 @@
     cursor: pointer;
     position: absolute;
     z-index: 101;
-    top:0;
-    left:0;
+    top:5px;
+    left:5px;
+    width: 35px;
 }
 
 

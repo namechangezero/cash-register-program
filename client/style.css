@@ -1,4 +1,7 @@
 
+body{
+}
+
 button{
     cursor: pointer;
 }
@@ -10,6 +13,8 @@ button{
     width: 100%;
     left:0;
     height: 5vh;
+
+    overflow-y: auto;
 
     text-align:center;
 }

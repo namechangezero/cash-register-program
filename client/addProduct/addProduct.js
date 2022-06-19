@@ -44,7 +44,7 @@ function addProduct(){
     prods.innerHTML="<tr><th colspan='2'>Produkte</th></tr><tr> <th>Produkt</th> <th>Preis</th> </tr>"
 
     for (var [key,val] of Object.entries(localStorage)){
-        if (key.indexOf("product:")==-1) return;
+        if (key.indexOf("product:")==-1) continue;
         
         var row = document.createElement("tr")
         var c1=document.createElement("td")

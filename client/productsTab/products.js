@@ -4,17 +4,20 @@ const productsTable = document.getElementById("products")
 const currentTable = document.getElementById("currentTable")
 const sum = document.getElementById("sum")
 
-
+// adds items to products table
 for (var [key,val] of Object.entries(localStorage)){
+
+    if (key.indexOf("product:")==-1){
+        continue
+    }
 
     var row = document.createElement("tr")
 
     var c1 = document.createElement("td")
     var c2 = document.createElement("td")
 
-    if (key.indexOf("product:")!=-1)
-        c1.innerHTML = key.slice(8);
-    else c1.innerHTML = key;
+
+    c1.innerHTML = key.slice(8);
     c2.textContent = val+"€";
 
     c1.classList.add("prodsClass")
@@ -61,4 +64,5 @@ for (var i=0;i<prods.length;i++){
 
 function finish(){
     currentTable.innerHTML="<tr><th colspan='2'>Momentan</th></tr><tr><th>Produkt</th><th>Preis</th></tr>"
+    sum.innerHTML = "Summe: 0-."
 }

@@ -9,3 +9,6 @@ Some functions will not work because it's not finished, but i'll work fast to br
 ATTENTION:  
 The site is german and will be translated in few days to weeks!  
 You might use the integrated website translator in chrome for a translation into your language.
+  
+  
+If you like the website after all, please star this repository :)
